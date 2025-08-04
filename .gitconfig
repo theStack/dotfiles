@@ -3,3 +3,10 @@
 	email = sebastian.falbesoner@gmail.com
 [core]
 	editor = vim
+[alias]
+	buildinit = !cmake -B build
+	build = !cmake --build build --parallel 12
+	bc = !./build/bin/bitcoin-cli
+	bd = !./build/bin/bitcoind
+	co = checkout
+	fu = fetch upstream
